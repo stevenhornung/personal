@@ -16,27 +16,24 @@ standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-kadira:flow-router
-coffeescript
-mquandalle:stylus
 accounts-password
 arillo:flow-router-helpers
+coffeescript
 gadicohen:robots-txt
 gadicohen:sitemaps
 http
 kadira:blaze-layout
+kadira:flow-router
 meteorhacks:aggregate
 meteorhacks:fast-render
-meteorhacks:kadira
 meteorhacks:npm
 meteorhacks:picker
 mizzao:user-status
+mquandalle:stylus
 mrt:moment
 mrt:moment-timezone
 ovcharik:alertifyjs
 percolatestudio:percolatestudio-migrations
-percolatestudio:segment.io
 percolatestudio:synced-cron
-
-
-npm-container
+silvervue:wkwebview
+tomwasd:flow-router-seo
