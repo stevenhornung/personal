@@ -1,0 +1,23 @@
+<head>
+  <title>Steven Hornung</title>
+
+  <meta http-equiv="content-type" content="text/html,css,javascript; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <meta property="og:url" content="http://stevenhornung.com">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="en">
+
+</head>
+
+<template name="layout">
+  <!--[if lt IE 10]>
+    <p class="browser-warning" style="width: 100%; top:0px; height: 30px; text-align:center; color:white; background-color:red; position:fixed; z-index:2000px;"><strong><i class="icon-exclamation-sign"></i> Warning</strong> - You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to properly view this website.</p>
+  <![endif]-->
+
+  <div class="main-container">
+    {{> Template.dynamic template=header}}
+    {{> Template.dynamic template=main}}
+  </div>
+</template>
