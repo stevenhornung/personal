@@ -37,3 +37,4 @@ percolatestudio:percolatestudio-migrations
 percolatestudio:synced-cron
 silvervue:wkwebview
 tomwasd:flow-router-seo
+force-ssl

@@ -3,12 +3,16 @@
     {
       "host": "stevenhornung.com",
       "username": "ubuntu",
-      "pem": "./shdo",
+      "pem": "private/shdo",
       "env": {
-        "CLUSTER_BALANCER_URL": "http://stevenhornung.com"
+        "CLUSTER_BALANCER_URL": "https://stevenhornung.com"
       }
     }
   ],
+
+  "ssl": {
+    "pem": "private/ssl.pem"
+  },
 
   "setupMongo": true,
 
@@ -24,7 +28,7 @@
 
   "env": {
     "PORT": 80,
-    "ROOT_URL": "http://stevenhornung.com"
+    "ROOT_URL": "https://stevenhornung.com"
   },
 
   "deployCheckWaitTime": 30

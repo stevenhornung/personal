@@ -1,7 +1,6 @@
 FlowRouter.route '/',
   name: 'root',
   action: ->
-    console.log 'blah'
     BlazeLayout.render 'layout', {main: 'home'}
 
 FlowRouter.route '/notFound',
