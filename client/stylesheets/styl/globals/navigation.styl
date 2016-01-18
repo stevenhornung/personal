@@ -25,7 +25,7 @@
 .navbar
   a
     max-height 50px
-    padding 8px 2px
+    padding 4px 2px
   > .container
     .navbar-brand
       background darken($menu-color, 20%)
@@ -37,12 +37,22 @@
         background transparent
 
 #logo
-  align(vertical)
+  display table
+  float left
   padding-left 18px
-  font-size 22px
-  color $menu-color
   &:hover
     text-decoration none
+  > img
+    display table-cell
+    width 40px
+    height 40px
+    border-radius 50%
+  > span
+    display table-cell
+    vertical-align middle
+    padding-left 10px
+    font-size 22px
+    color $menu-color
 
 #header-navbar
   background $white

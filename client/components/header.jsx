@@ -3,6 +3,7 @@ Header = React.createClass({
     return <div className="header">
       <div className="container">
         <a id="logo" href="{{pathFor 'index'}}" class="navbar-brand">
+          <img src="/img/steve.jpg" />
           <span>Steven Hornung</span>
         </a>
         <div id="header-nav" className="nav-no-collapse pull-right">
