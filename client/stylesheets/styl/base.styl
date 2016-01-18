@@ -1,0 +1,99 @@
+@import 'settings.import'
+
+normalize-css()
+base()
+
+html
+body
+  background-color $body-background-color
+  font-family $font-stack
+  min-height 100%
+  height 100%
+
+.is-hidden
+  display none !important
+.is-invisible
+  visibility none !important
+
+.block
+  display block !important
+.inline
+  display inline !important
+.inline-block
+  display inline-block !important
+
+.left
+  float left !important
+.right
+  float right !important
+
+.align-center
+  margin-left auto !important
+  margin-right auto !important
+
+.text-left
+  text-align left !important
+.text-center
+  text-align center !important
+.text-right
+  text-align right !important
+
+.mt0
+  margin-top 0 !important
+.mt1
+  margin-top 1em !important
+.mb0
+  margin-bottom 0 !important
+.mb1
+  margin-bottom 1em !important
+
+.modal-backdrop
+  z-index 1039 !important
+
+// Athlete plain text lists
+.athlete-list
+  width 100%
+  position relative
+  span
+    font-weight lighter
+    font-size 12px
+    b
+      font-weight normal
+    &:not(:last-child):after
+      content ", "
+
+// Spinner
+.spinner
+  margin 50px auto 0
+  width 100%
+  text-align center
+  > div
+    width 18px
+    height 18px
+    background-color $primary-color
+    border-radius 100%
+    display inline-block
+    animation sk-bouncedelay 1.4s infinite ease-in-out both
+
+  .bounce1
+    animation-delay -0.32s
+  .bounce2
+    animation-delay -0.16s
+
+@keyframes sk-bouncedelay
+  0%, 80%, 100%
+    transform scale(0)
+  40%
+    transform scale(1.0)
+
+
+// Ungrid
+@media tablet
+  .grid-row
+    width 100%
+    display table
+    table-layout fixed
+
+  .col
+    display table-cell
+    position relative

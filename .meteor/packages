@@ -18,11 +18,9 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 accounts-password
 arillo:flow-router-helpers
-coffeescript
 gadicohen:robots-txt
 gadicohen:sitemaps
 http
-kadira:blaze-layout
 kadira:flow-router
 meteorhacks:aggregate
 meteorhacks:fast-render
@@ -38,3 +36,5 @@ percolatestudio:synced-cron
 silvervue:wkwebview
 tomwasd:flow-router-seo
 force-ssl
+react
+kadira:react-layout

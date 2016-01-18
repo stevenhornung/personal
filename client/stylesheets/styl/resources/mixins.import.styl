@@ -1,0 +1,27 @@
+inline-list()
+  li
+    display inline
+comma-list()
+  inline-list()
+  li
+    &:after
+      content ', '
+    &:last-child:after
+      content ''
+
+fade(color, width)
+  float left
+  width width
+  white-space nowrap
+  position relative
+  overflow hidden
+  &:after
+    content ''
+    position absolute
+    top 0
+    right 0
+    width 30%
+    height 100%
+    background-size 100%
+    background-image linear-gradient(to right, hsla(color, 0) 0%, color 80%, color 100%)
+    pointer-events none

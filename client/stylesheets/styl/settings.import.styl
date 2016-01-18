@@ -1,0 +1,80 @@
+@import 'jeet'
+
+// Font stacks (add your own!)
+$lato = "Lato", Helvetica, Arial, sans-serif
+$helvetica-neue = "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif
+$helvetica = "Helvetica Neue", Helvetica, Arial, sans-serif
+$georgia = Georgia, Cambria, "Times New Roman", Times, serif
+$lucidia-grande = "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
+$monospace = unquote("'Bitstream Vera Sans Mono', Consolas, Courier, monospace")
+$verdana = Verdana, Geneva, sans-serif
+
+// Default font settings
+$font-stack = $lato
+$font-size = 16px
+$font-color = #555
+
+// Colors
+$default-color = #90a4ae
+$secondary-color = #8bc34a
+$primary-color = #f3cb5f
+$accent-color = #03a9f4
+$heading-color = #242a34
+$danger-color = #e84e40
+$menu-color = #242a34
+$body-color = #616161
+$border-color = hsla(0,0,0,.20)
+$light-border-color = hsla(0,0,0,.10)
+$shadow = hsla(0,0,0,.05)
+$body-background-color = #e6eaed
+$darker-fill-color = #f3f5f6
+$progress-background-color = #e1e6ea
+$fill-color = #ffffff
+
+// Colors (via http://clrs.cc - slightly modded)
+$navy     = #001F3F
+$blue     = #0074D9
+$aqua     = #7FDBFF
+$teal     = #39CCCC
+$olive    = #3D9970
+$green    = #2ECC40
+$lime     = #01FF70
+$yellow   = #FFDC00
+$orange   = #FF851B
+$red      = #D13F19
+$maroon   = #85144B
+$fuchsia  = #F012BE
+$purple   = #B10DC9
+$white    = #FFFFFF
+$silver   = #DDDDDD
+$gray     = #AAAAAA
+$black    = #222222
+
+// Media Queries
+desktopWidth = 1199px
+desktopDownWidth = 1198px
+laptopWidth = 992px
+laptopDownWidth = 991px
+tabletWidth = 768px
+mobileWidth = 767px
+
+// Desktop
+desktop = "only screen and (min-width: " + desktopWidth + ")"
+
+// Desktop Down
+desktopDown = "only screen and (max-width: " + desktopDownWidth + ")"
+
+// Laptop
+laptop = "only screen and (min-width: " + laptopWidth + ")"
+
+// Laptop Down
+laptopDown = "only screen and (max-width: " + laptopDownWidth + ")"
+
+// Between Laptop / Tablet
+between = "only screen and (min-width: " + tabletWidth + ") and (max-width: " + desktopWidth + ")"
+
+// Tablet
+tablet = "only screen and (min-width: " + tabletWidth + ")"
+
+// Mobile
+mobile = "only screen and (max-width: " + mobileWidth + ")"
