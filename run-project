@@ -9,4 +9,8 @@ echo """
                                                                      |___/
 """
 
-VELOCITY=0 meteor run $1 --settings settings.json
+if [ -n "$2" ]; then
+  VELOCITY=0 ROOT_URL=$2 meteor run $1 --settings private/settings.json --mobile-server $2
+else
+  VELOCITY=0 meteor run $1 --settings private/settings.json
+fi

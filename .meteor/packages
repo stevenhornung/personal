@@ -35,6 +35,8 @@ percolatestudio:percolatestudio-migrations
 percolatestudio:synced-cron
 silvervue:wkwebview
 tomwasd:flow-router-seo
-force-ssl
-react
+react@0.14.3
 kadira:react-layout
+react-runtime@0.14.3
+force-ssl
+percolatestudio:segment.io@=2.0.0_1

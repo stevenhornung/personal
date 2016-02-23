@@ -1,4 +1,8 @@
 App = React.createClass({
+  componentWillMount() {
+    analytics.load(Meteor.settings.public.analytics.key);
+  },
+
   render() {
     return <div id="wrapper" className="fixed-header fixed-sidebar">
       <header id="header-navbar" className="navbar">
